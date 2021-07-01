@@ -1,0 +1,8 @@
+package edu.sjsu.Controller;
+
+/**
+ * Distinguishes the messages sent to the Valve
+ */
+public enum ValveResponse {
+    GREETING_TO_LOGIN, GREETING_TO_CREATE, BACK_TO_GREETING, LOGIN_SUCCESS, LOGIN_FAIL,CREATE_SUCCESS, CREATE_FAIL, BOOKING, EXECUTED, FINISH, TYPE_TIME, BACK_TO_HOME,SUBMIT_BOOKING,CANCEL_BOOKING_SUCCESS ;
+};
